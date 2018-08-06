@@ -8,7 +8,7 @@ export default CoordinatesButton extends React.Component {
   }
 
   render() {
-
+    return()
   }
 
 }
