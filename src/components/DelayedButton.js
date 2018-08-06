@@ -6,7 +6,10 @@ export default DelayedButton extends React.Component {
   handleClick = (event) => {
     return(this.props.onDelayedClick)
   }
-  this.props.delay
+
+  handleDelay = () => {
+    return(this.props.delay)
+  }
 
   render() {
     return(
