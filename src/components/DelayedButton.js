@@ -4,11 +4,8 @@ import React from 'react';
 export default DelayedButton extends React.Component {
 
   handleClick = (event) => {
-    return(this.props.onDelayedClick)
-  }
-
-  handleDelay = () => {
-    return(this.props.delay)
+    setTimeout(() => {
+      this.props.onDelayedClick(event)}, this.props.delay)
   }
 
   render() {
