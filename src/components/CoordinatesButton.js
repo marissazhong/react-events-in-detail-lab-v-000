@@ -1,7 +1,7 @@
 // Code CoordinatesButton Component Here
 import React from 'react';
 
-export default EyesOnMe extends React.Component {
+export default CoordinatesButton extends React.Component {
 
 
 }
